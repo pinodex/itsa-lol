@@ -26,6 +26,14 @@ body {
     margin-top: -200px;
     padding: 50px;
   }
+
+  .schedule-page .header-overlap .header {
+    padding-bottom: 100px;
+  }
+
+  .schedule-page .header-overlap .content {
+    margin-top: -80px;
+  }
 }
 
 .official-logos {
@@ -34,6 +42,10 @@ body {
 
 .header-image {
   max-width: 100%;
+}
+
+.schedule-page .header-image {
+  max-width: 400px;
 }
 
 .title {
@@ -60,4 +72,13 @@ li {
 .official-logos {
   margin: 50px 0;
   text-align: center;
+}
+
+td.time {
+  vertical-align: top;
+  font-weight: bold;
+}
+
+p:last-child {
+  margin-bottom: 0;
 }
